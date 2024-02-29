@@ -6,9 +6,9 @@
 **asamoahboateng/asamoahboateng** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 -->
 
-# About me:
+### About me:
 
-- 🔭 I’m currently working on ...
+- 🔭 I’m currently working on multi-tenancy application using Laravel and Livewire
 - 🌱 I’m currently learning devOps and more frontend tools
 <!-- - 👯 I’m looking to collaborate on ... -->
 <!-- - 🤔 I’m looking for help with ... -->
