@@ -1,5 +1,7 @@
 # 💫 About Me:
-I’m currently developing a multi-tenancy application using Laravel and Livewire, while also updating an LMS with Livewire and Filament. <br>I’m focused on enhancing my knowledge in DevOps, frontend development, and cybersecurity. <br>Fun fact: I’m a huge fan of sci-fi movies!
+I’m currently developing a multi-tenancy application using Laravel and Livewire, while also updating an LMS with Livewire and Filament. <br>
+I’m focused on enhancing my knowledge in DevOps, frontend development, and cybersecurity. <br>
+Fun fact: I’m a huge fan of sci-fi movies!
 
 
 ## 🌐 Socials:
