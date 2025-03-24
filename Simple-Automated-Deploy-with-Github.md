@@ -1,3 +1,5 @@
+# Automated Laravel Deployment with GitHub Actions
+
 To automate a process where GitHub pushes your code to a server via SSH, and then executes a script (such as pulling the latest version of your code and running a `php artisan` command), you can use GitHub Actions and SSH keys for secure server access.
 
 Here’s an overview of the steps to set it up:
