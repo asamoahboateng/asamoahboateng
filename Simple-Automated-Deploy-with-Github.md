@@ -20,21 +20,8 @@ Ensure your repository is cloned on the server using SSH.
 ```bash
 git clone git@github.com:your-username/your-repo.git /path/to/your/project
 ```
-
-- Configure SSH to use GitHub SSH keys without a password by adding your private key to the SSH agent:
-
-```bash
-ssh-agent bash
-ssh-add ~/.ssh/id_rsa
-```
-
-- Ensure GitHub is recognized as a known host by adding it to your SSH config:
-
-```bash
-ssh-keyscan github.com >> ~/.ssh/known_hosts
-```
-
-This allows you to run `git pull` without needing a password.
+- This allows you to run `git pull` without needing a password.
+- (You might need to configure GitHub SSH access.)
 
 ### 3. Add SSH Private Key to GitHub Secrets
 To allow GitHub Actions to securely access your server, you’ll need to store your private SSH key in GitHub Secrets.
