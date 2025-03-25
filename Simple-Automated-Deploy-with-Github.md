@@ -67,8 +67,9 @@ jobs:
           ssh -o StrictHostKeyChecking=no user@your.server.com << 'EOF'
             cd /path/to/your/project || exit 1
             git pull origin main || exit 1
+            composer isntall || exit 1
             php artisan migrate || exit 1
-            php artisan config:cache || exit 1
+            php artisan optimize:cache || exit 1
             # Add any other commands you need to run
             echo "Deployment successful"
           EOF
@@ -80,8 +81,6 @@ jobs:
 - **ssh-keyscan**: This adds the server's SSH host to the known hosts to prevent the "host authenticity" warning.
 - **ssh**: Once connected to your server, it runs the commands:
   - `git pull origin main`: Pull the latest code from the `main` branch.
-  - `php artisan migrate`: Run Laravel database migrations.
-  - `php artisan config:cache`: Cache the Laravel configuration.
   - The script can be extended to run other necessary commands.
 - The script is wrapped in a heredoc (`<< 'EOF'`) to allow multiline commands.
 
