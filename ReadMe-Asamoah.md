@@ -1,4 +1,5 @@
 # I'm Kwame Boateng
+## Software Developer | AI Enthusiant | Greek
 
 
 # 💫 About Me:
